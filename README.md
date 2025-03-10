@@ -47,7 +47,7 @@ terraform apply
 
 ## 👨‍💻 Autor
 Gustl117  
-LinkedIn | GitHub | E-Mail
+
 
 
 
