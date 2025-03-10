@@ -14,6 +14,7 @@ Jarvis117 ist ein lokal laufender AI-Assistent, der mit **vLLM** in Docker ausge
 - **Docker** installiert
 - **WSL2** aktiviert (falls auf Windows)
 - **Git** für die Versionskontrolle
+- **Terraform** für Infrastructure-as-Code (optional)
 
 ### Installation
 ```sh
@@ -25,15 +26,29 @@ cd jarvis117
 docker compose up -d
 ```
 
+### Cloud-Deployment mit Terraform (optional)
+Falls du Jarvis117 in der Cloud bereitstellen möchtest, kannst du Terraform nutzen:
+```sh
+# Terraform initialisieren
+terraform init
+
+# Infrastruktur planen
+terraform plan
+
+# Infrastruktur bereitstellen
+terraform apply
+```
+
 ## 🌟 Roadmap
 - [ ] Grundfunktionen implementieren
 - [ ] GUI für einfache Interaktion
 - [ ] API-Anbindung für externe Tools
+- [ ] Terraform-Skripte für Cloud-Deployment
 
 ## 👨‍💻 Autor
-**Dein Name**  
+Gustl117  
 LinkedIn | GitHub | E-Mail
 
-## 🛡️ Lizenz
-MIT License - siehe [LICENSE](LICENSE) für Details.
+
+
 
